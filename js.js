@@ -7,7 +7,7 @@ let input_verse = document.querySelector(".input_verse");
 let verseAnd = "~";
 let verseOr = ", ";
 
-
+document.body.style.cursor = 'none';
 input_num.focus();
 
 function displayText(num) {
