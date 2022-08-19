@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap');
+
+body {
+    background-color: black;
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+}
+
+body::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Opera*/
+}
+.upbox {
+    width: 100vw;
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.upbox_text {
+    font-family: 'Noto Sans JP', sans-serif;
+    color: yellow;
+    font-size: 15vh;
+}
+
+.remove {
+    display: none;
+}
+
+.downbox {
+    width: 100vw;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.input_type {
+    background-color: black;
+    box-shadow: none;
+    border: none;
+    text-align: center;
+    text-shadow: 0 0 0 yellow;
+    color: transparent;
+}
+
+.downbox_num input {
+    font-size: 40vh;    
+}
+.downbox_verse{
+    padding-top: 5vh;
+}
+
+.input_verse_text {
+    font-size: 10vh;
+    color: yellow;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.downbox_verse input {
+    font-size: 10vh;
+    width: 50vw;
+}
